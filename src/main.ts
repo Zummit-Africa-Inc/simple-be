@@ -10,7 +10,7 @@ async function bootstrap() {
   if (process.env.NODE_ENV !== 'production') {
     const options = new DocumentBuilder()
       .setTitle('ZA Web BE - ZAPI')
-      .setDescription('Zummit Africa Web BackEnd ZAPI')
+      .setDescription('Zummit Africa Web BackEnd - ZAPI')
       .setVersion('1.0')
       .addBearerAuth()
       .build();
